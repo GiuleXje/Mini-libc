@@ -51,16 +51,6 @@ For your minimal implementation, the following header files are of interest:
 
 - `<errno.h>` and `errno.c`: declare and define the integer variable `errno`, which is set by system calls and some library functions in the event of an error to indicate what went wrong.
 
-Some tests do not build.
-This is intentional.
-You will have to add the missing features to make those tests compile, that is
-
-- the `time.h` header
-- the declaration and the implementation of `puts()`
-- the declaration and the implementation of `nanosleep()` and `sleep()`
-- the update of the libc `Makefile` to build the source code files implementing `puts()`, `nanosleep()` and `sleep()`
-
-  :exclamation::exclamation: **Pay attention** to which functions have to modify the `errno` variable.
 
 ### Building mini-libc
 

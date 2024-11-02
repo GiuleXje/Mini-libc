@@ -16,7 +16,6 @@ It will be implemented on top of the system call interface provided by Linux on 
 Any function you require, that is typically part of libc, you will have to implement.
 You can reuse functions that you implement in other parts of the mini-libc.
 
-In case you are using a macOS device with ARM64 / Aarch64, you will have to install an `x86_64` virtual machine.
 
 ## Support Code
 

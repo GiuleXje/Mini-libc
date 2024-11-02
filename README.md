@@ -1,7 +1,5 @@
 # Mini-libc
 
-# Mini-libc
-
 ## Objectives
 
 - Learn about the structure and functionalities provided by the standard C library

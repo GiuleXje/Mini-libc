@@ -30,8 +30,7 @@ Each header file contains one or more function declarations, data type definitio
 For your minimal implementation, the following header files are of interest:
 
 - `<string.h>`: defines string-handling functions
-
-  For this assignment, you will have to implement the following functions: `strcpy()`, `strcat()`, `strlen()`, `strncpy()`, `strncat()`, `strcmp()`, `strncmp()`, `strstr()`, `strrstr()`, `memcpy()`, `memset()`, `memmove()`, `memcmp()`.
+  Implemented the following functions: `strcpy()`, `strcat()`, `strlen()`, `strncpy()`, `strncat()`, `strcmp()`, `strncmp()`, `strstr()`, `strrstr()`, `memcpy()`, `memset()`, `memmove()`, `memcmp()`.
 
 - `<stdio.h>`: defines printing and I/O functions
 
